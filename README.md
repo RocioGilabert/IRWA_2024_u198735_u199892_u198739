@@ -27,7 +27,10 @@ The code for the first part of the project is structured in the follwoing way:
 3. **Our score + Cosine Similarity:** Here we have the function to compute our socre + cosine similarity based on our criteria explained also in the pdf report. We have also added an example of usage of this function with the same query as in the tf-idf + cosine similarity
 4. **BM25:** In this section we have implemented the BM25 ranking method. We have also added an example of usage of this function with the same query as in the other rankings.
 5. **Top20 List of Documents:** Here we implement the word2vec + cosine similarity and, then, we have retrieved for each of our 5 queries from part 2 their top 20 list of documents with its tweet id, the score and the content.
-6. **Extras:** We have added two sections with extras. In the first section you will find the implementation of sentence2vec + cosine similarity and the output for the query 'indian government'. Then, in the second section, you will find the implementation of doc2vec + cosine similarity and the output for the query 'indian government' also.  
+6. **Extras:** We have added two sections with extras. In the first section you will find the implementation of sentence2vec + cosine similarity and the output for the query 'indian government'. Then, in the second section, you will find the implementation of doc2vec + cosine similarity and the output for the query 'indian government' also.
 
-The code only has to be run, it doesn't ask for any input.
-You will see comments on the code with explanations of what is being done.
+## Part 4: User Interface and Web Analytics
+1. **User Interface:** In this first part we developed the search engine of the web app. First, we integrated our search algorithms to be able to use them in the web app, then we loaded the .json file as corpus and edited the functions in search_engine.py. Finally, we edited a bit the results.html and doc_details.html as needed to show the tweets as we desired
+2. **Evaluation:** In this section we have collected some data during the use of the web app in different spots and, with that information, we developed the stats and the dashboard sections of the project.
+For this part of the project you need to add the 'farmers-protest-tweets.json' file into the folder 'IRWA-2024-u198735-u199892-u198739-part-4-app' to be able to run the app. Also, in case you need it, you should create a Python environment and import the libraries needed. The last step is to write 'python web_app.py' to run the code. It may take a bit to load, but be pacient please! We promise that it will be worth it 😊.  
+You will see comments on the code with some explanations of what is being done.
